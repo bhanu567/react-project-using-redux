@@ -1,0 +1,28 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 0;
+}
+.button {
+  padding: 0px 15px;
+  cursor: pointer;
+  border: 0;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 15px;
+}
+.counter-value-div {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 2px 25px;
+  cursor: no-drop;
+  font-weight: bold;
+  font-size: 20px;
+}
